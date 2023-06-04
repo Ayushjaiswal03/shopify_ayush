@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Your Shopify App</title>
+  <link rel="stylesheet" type="text/css" href="styles2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<script src="script.js"></script>
+</head>
+<body>
+    <div id="gatsby"></div>
+    <header class="dashboard">
+        <nav>
+          <ul class="header-menu">
+
+            <li class="dropdown"><a href="javascript:void(0)" class="dropbtn" class="dropbtn"><img src="icons8-shopify-48.png"></a> <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div></li>
+            <li class="dropdown"><a href="javascript:void(0)" class="dropbtn" class="dropbtn">Home</a> <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div></li>
+            <li class="dropdown"><a href="javascript:void(0)" class="dropbtn" class="dropbtn">Products</a> <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div></li>
+            <li class="dropdown"><a href="javascript:void(0)" class="dropbtn" class="dropbtn">About</a> <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div></li>
+            <li class="dropdown"><a href="javascript:void(0)" class="dropbtn" class="dropbtn">Contact</a> <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div></li>
+              <li class="search">
+                <input type="text" placeholder="Search..." />
+                <button type="submit">Search</button>
+              </li>
+          </ul>
+        </nav>
+    </header>
+    <div class="data">
+    <div class="shopi">
+      <section>
+       <div class="container">
+              <div class="sidebar">
+                 <form class="menu">
+                        <div class="menu-item">
+                            <label for="dashboard"> <img src="icons8-home-26.png" alt="Small Image" class="image">
+                              Dashboard
+                            </label>
+                            <select id="dashboard">
+                               <option value="overview">Overview</option>
+                               <option value="stats">Stats</option>
+                            </select>
+                        </div>
+                        <div class="menu-item">
+                            <label for="orders"><img src="icons8-shopping-cart-50.png" alt="Small Image" class="image">Orders</label>
+                             <select id="orders">
+                              <option value="all-orders">All Orders</option>
+                <option value="pending">Pending</option>
+                <option value="completed">Completed</option>
+              </select>
+            </div>
+    
+            <div class="menu-item">
+              <label for="products"><img src="icons8-used-product-50.png" alt="Small Image" class="image">Products</label>
+              <select id="products">
+                <option value="all-products">All Products</option>
+                <option value="add-product">Add Product</option>
+              </select>
+            </div>
+    
+            <div class="menu-item">
+              <label for="customers"><img src="icons8-myspace-50.png" alt="Small Image" class="image">Customers</label>
+              <select id="customers">
+                <option value="all-customers">All Customers</option>
+                <option value="add-customer">Add Customer</option>
+              </select>
+            </div>
+    
+            <div class="menu-item">
+              <label for="Delivery"><img src="icons8-free-shipping-50.png" alt="Small Image" class="image">Delivery</label>
+              <select id="Delivery">
+                <option value="sales">shipping</option>
+                <option value="traffic">Address</option>
+              </select>
+            </div>
+            <div class="menu-item">
+              <label for="finances"><img src="icons8-money-bag-rupee-30.png" alt="Small Image" class="image">Finances</label>
+              <select id="finances">
+                <option value="sales">Sales</option>
+                <option value="traffic">outcomes</option>
+              </select>
+            </div>
+            <div class="menu-item">
+              <label for="marketing"><img src="icons8-marketing-30.png" alt="Small Image" class="image">Marketing</label>
+              <select id="marketing">
+                <option value="sales">Sales</option>
+                <option value="traffic">Traffic</option>
+              </select>
+            </div>
+            <div class="menu-item">
+              <label for="reports"><img src="icons8-report-50.png" alt="Small Image" class="image">Reports</label>
+              <select id="reports">
+                <option value="sales">Sales</option>
+                <option value="traffic">Traffic</option>
+              </select>
+            </div>
+            <div class="menu-item">
+              <label for="Inbox"><img src="icons8-message.gif" alt="Small Image" class="image">Inbox</label>
+              <select id="Inbox">
+                <option value="sales">Sales</option>
+                <option value="traffic">Traffic</option>
+              </select>
+            </div>
+            <div class="menu-item">
+              <label for="settings"><img src="icons8-settings-30.png" alt="Small Image" class="image">Settings</label>
+              <select id="Settings">
+                <option value="sales">Sales</option>
+                <option value="traffic">Traffic</option>
+              </select>
+            </div>
+        </form>
+      </div>
+  </div>
+    </section>
+</div>
+    <main class="shopi2">
+        <h1 style="font-family:'Dancing Script', cursive; align-self: center;">Welcome to Your Shopify App</h1>
+        <div class="mains">
+            <div class="card1">
+                <div class="detcard">
+                    <p class="textcard">New Net Income</p>
+                    <div class="textcard1">
+                       <a class="newnetincome" href="#">
+                            <div class="sectionnni">
+                                <div class="sectionnninum">
+                                    <p class="num1">1</p>
+                                </div>
+                                <div class="nnnitext">
+                                    <p class="nnitextp">the income thats come in this week</p>
+                                    <p class="nnitextp2">$35346436 new income generated 
+                                    </p>
+                                </div>
+                                <p class="nnitime">22:00</p>
+                            </div>
+                        </a>
+                        <a class="newnetincome" href="#">
+                            <div class="sectionnni">
+                                <div class="sectionnn1num">
+                                      <p class="num1">2</p>
+                                </div>
+                                <div class="nnnitext">
+                                      <p class="nnitextp">the income thats came last week</p>
+                                      <p class="nnitextp2">$35346436 income generated 
+                                      </p>
+                                </div>
+                                  <p class="nnitime">2:00</p>
+                            </div>
+                        </a> 
+                    </div>
+                </div>
+                <div class="incomecard">
+                        <div class="ic1">
+                            <div class="ic1_bgw">
+                                <div class="cent-wrapper">
+                                    <img src="vecteezy_analitics-3d-icon-illustration-for-your-website-user_9418804_730.png" alt="graph2"
+                                      class="img_graph">
+                                </div>
+                                <div class="cent-top">
+                                    <p class="info-graph">monthly income graphs can be shown here</p>
+                                </div>
+                            </div>
+                            <div class="overlay">
+
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+            <div class="card1">
+                    <div class="detcard">
+                        <p class="textcard">New Net Income</p>
+                        <div class="textcard1">
+                           <a class="newnetincome" href="#">
+                                <div class="sectionnni">
+                                    <div class="sectionnninum">
+                                        <p class="num1">1</p>
+                                    </div>
+                                    <div class="nnnitext">
+                                        <p class="nnitextp">the income thats come in this week</p>
+                                        <p class="nnitextp2">$35346436 new income generated 
+                                        </p>
+                                    </div>
+                                    <p class="nnitime">22:00</p>
+                                </div>
+                            </a>
+                            <a class="newnetincome" href="#">
+                                  <div class="sectionnni">
+                                      <div class="sectionnn1num">
+                                          <p class="num1">2</p>
+                                      </div>
+                                      <div class="nnnitext">
+                                          <p class="nnitextp">the income thats came last week</p>
+                                          <p class="nnitextp2">$35346436 income generated 
+                                          </p>
+                                      </div>
+                                      <p class="nnitime">2:00</p>
+                                  </div>
+                            </a> 
+                        </div>
+                    </div>
+                    <div class="incomecard">
+                            <div class="ic1">
+                                <div class="ic1_bgw">
+                                    <div class="cent-wrapper">
+                                        <img src="vecteezy_analitics-3d-icon-illustration-for-your-website-user_9418804_730.png" alt="graph2"
+                                          class="img_graph">
+                                    </div>
+                                    <div class="cent-top">
+                                        <p class="info-graph">monthly income graphs can be shown here</p>
+                                    </div>
+                                </div>
+                                <div class="overlay">
+    
+                                </div>
+                            </div>
+            </div>
+        </div> 
+    </main>            
+        <br>
+    <div class="cont-group">
+        <div class="box1">
+            <div class="box-inside">
+                <div class="inside-top">
+                    <div class="inside-cont">
+                        <img src="vecteezy_3d-online-shopping-store-with-mobile-icon-ecommerce_9590456_553.png" alt="graph" class="img1">
+                    </div>
+                </div>
+                <div class="inside-bottom">
+                    <p class="text-bot">
+                        link to other webpages 
+                    </p>
+
+                </div>
+            </div>
+            <div class="b1-overlay"></div>
+        </div>
+        <div class="box1">
+            <div class="box-inside">
+                <div class="inside-top">
+                    <div class="inside-cont">
+                        <img src="vecteezy_3d-online-shopping-store-with-mobile-icon-ecommerce_9590456_553.png" alt="graph" class="img1">
+                    </div>
+                </div>
+                <div class="inside-bottom">
+                    <p class="text-bot">
+                        link to other webpages 
+                    </p>
+
+                </div>
+            </div>
+            <div class="b1-overlay"></div>
+        </div>
+        <div class="box1">
+            <div class="box-inside">
+                <div class="inside-top">
+                    <div class="inside-cont">
+                        <img src="vecteezy_3d-online-shopping-store-with-mobile-icon-ecommerce_9590456_553.png" alt="graph" class="img1">
+                    </div>
+                </div>
+                <div class="inside-bottom">
+                    <p class="text-bot">
+                        link to other webpages 
+                    </p>
+
+                </div>
+            </div>
+            <div class="b1-overlay"></div>
+        </div>
+    </div>
+    </main><br>
+    <section>
+        <div class="scorecards">
+          <div class="scorecard">
+            <h2>Scorecard 1</h2>
+            <p>Score: 80%</p>
+          </div>
+          <div class="scorecard">
+            <h2>Scorecard 2</h2>
+            <p>Score: 75%</p>
+          </div>
+        </div>
+      </section>
+  
+      <section>
+        <h2>Graph</h2>
+        <div id="graph">
+        </div>
+      </section>
+  
+      <section>
+        <h2>Table with Filters</h2>
+        <div class="filters">
+          <label for="date-range-filter">Date Range:</label>
+          <select id="date-range-filter">
+            <option value="last-week">Last Week</option>
+            <option value="last-month">Last Month</option>
+            <option value="last-year">Last Year</option>
+          </select>
+          <label for="dimension-filter">Dimension:</label>
+          <select id="dimension-filter">
+            <option value="category">Category</option>
+            <option value="region">Region</option>
+            <option value="product">Product</option>
+          </select>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Dimension</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2023-05-01</td>
+              <td>Category A</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>2023-05-02</td>
+              <td>Category B</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>2023-05-03</td>
+              <td>Category A</td>
+              <td>5</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>   
+      <script>
+     
+        const searchButton = document.querySelector('.search button');
+        searchButton.addEventListener('click', function() {
+            const searchInput = document.querySelector('.search input');
+            const searchTerm = searchInput.value;
+            console.log('Search term:', searchTerm);
+            // Perform search or other actions
+        });
+    </script>
+</body>
+</html>
